@@ -37,40 +37,40 @@ plt.rc("font", family = "Malgun Gothic")
 import warnings
 warnings.filterwarnings(action='ignore') 
 
-df1_parking=GetCompasData('SBJ_2012_001', '1', '1.오산시_주정차단속(2018~2020).csv')
-df2_grid_accident=GetCompasData('SBJ_2012_001', '2', '2.오산시_어린이교통사고_격자.geojson')
-df3_grid_car_enrollment=GetCompasData('SBJ_2012_001', '3', '3.오산시_차량등록현황_격자.geojson')
-df4_pop=GetCompasData('SBJ_2012_001', '4', '4.오산시_연령별_거주인구격자(총인구).geojson')
-df5_junior_pop=GetCompasData('SBJ_2012_001', '5', '5.오산시_연령별_거주인구격자(유소년).geojson')
-df6_product_pop=GetCompasData('SBJ_2012_001', '6', '6.오산시_연령별_거주인구격자(생산가능인구).geojson')
-df7_senior_pop=GetCompasData('SBJ_2012_001', '7', '7.오산시_연령별_거주인구격자(고령).geojson')
-df8_floating_pop=GetCompasData('SBJ_2012_001', '8', '8.오산시_유동인구(2019).csv')
-df9_protection_area=GetCompasData('SBJ_2012_001', '9', '9.오산시_어린이보호구역.csv')
-df10_school=GetCompasData('SBJ_2012_001', '10', '10.오산시_학교위치정보.csv')
-df11_elementary_district=GetCompasData('SBJ_2012_001', '11', '11.오산시_초등학교_통학구.geojson')
-df12_middle_district=GetCompasData('SBJ_2012_001', '12', '12.오산시_중학교_학군.geojson')
-df13_kinder=GetCompasData('SBJ_2012_001', '13', '13.오산시_어린이집_유치원현황.csv')
-df14_weather=GetCompasData('SBJ_2012_001', '14', '14.오산시_기상데이터(2010~2019).csv')
-df15_traffic_cctv=GetCompasData('SBJ_2012_001', '15', '15.오산시_무인교통단속카메라.csv')
-df16_road_sign=GetCompasData('SBJ_2012_001', '16', '16.오산시_도로안전표지표준데이터.csv')
-df17_crosswalk=GetCompasData('SBJ_2012_001', '17', '17.오산시_횡단보도.geojson')
-df18_speed_bump=GetCompasData('SBJ_2012_001', '18', '18.오산시_과속방지턱표준데이터.csv')
-df19_traffic_light=GetCompasData('SBJ_2012_001', '19', '19.오산시_신호등.geojson')
-df20_cctv=GetCompasData('SBJ_2012_001', '20', '20.오산시_CCTV설치현황.csv')
-df21_sidewalk=GetCompasData('SBJ_2012_001', '21', '21.오산시_인도.geojson')
-df22_bus_stop=GetCompasData('SBJ_2012_001', '22', '22.오산시_버스정류장.csv')
-df23_road=GetCompasData('SBJ_2012_001', '23', '23.오산시_상세도로망_LV6.geojson')
-df24_traffic=GetCompasData('SBJ_2012_001', '24', '24.평일_전일,시간대별_오산시_추정교통량_Level6.csv')
-df25_traffic_frequency=GetCompasData('SBJ_2012_001', '25', '25.평일_전일_오산시_혼잡빈도강도_Level6.csv')
-df26_traffic_time=GetCompasData('SBJ_2012_001', '26', '26.평일_전일_오산시_혼잡시간강도_Level6.csv')
-df27_building=GetCompasData('SBJ_2012_001', '27', '27.오산시_도로명주소_건물.geojson')
-df28_grid_building=GetCompasData('SBJ_2012_001', '28', '28.오산시_건물연면적_격자.geojson')
-df29_sports=GetCompasData('SBJ_2012_001', '29', '29.오산시_체육시설현황.csv')
-df30_academy=GetCompasData('SBJ_2012_001', '30', '30.오산시_학원_및_교습소_현황.csv')
-df31_le_sig=GetCompasData('SBJ_2012_001', '31', '31.오산시_법정경계(시군구).geojson')
-df32_admin_emd=GetCompasData('SBJ_2012_001', '32', '32.오산시_행정경계(읍면동).geojson')
-df33_legal_emd=GetCompasData('SBJ_2012_001', '33', '33.오산시_법정경계(읍면동).geojson')
-df34_cadastral_map=GetCompasData('SBJ_2012_001', '34', '34.오산시_지적도.geojson')
+# df1_parking=GetCompasData('SBJ_2012_001', '1', '1.오산시_주정차단속(2018~2020).csv')
+# df2_grid_accident=GetCompasData('SBJ_2012_001', '2', '2.오산시_어린이교통사고_격자.geojson')
+# df3_grid_car_enrollment=GetCompasData('SBJ_2012_001', '3', '3.오산시_차량등록현황_격자.geojson')
+# df4_pop=GetCompasData('SBJ_2012_001', '4', '4.오산시_연령별_거주인구격자(총인구).geojson')
+# df5_junior_pop=GetCompasData('SBJ_2012_001', '5', '5.오산시_연령별_거주인구격자(유소년).geojson')
+# df6_product_pop=GetCompasData('SBJ_2012_001', '6', '6.오산시_연령별_거주인구격자(생산가능인구).geojson')
+# df7_senior_pop=GetCompasData('SBJ_2012_001', '7', '7.오산시_연령별_거주인구격자(고령).geojson')
+# df8_floating_pop=GetCompasData('SBJ_2012_001', '8', '8.오산시_유동인구(2019).csv')
+# df9_protection_area=GetCompasData('SBJ_2012_001', '9', '9.오산시_어린이보호구역.csv')
+# df10_school=GetCompasData('SBJ_2012_001', '10', '10.오산시_학교위치정보.csv')
+# df11_elementary_district=GetCompasData('SBJ_2012_001', '11', '11.오산시_초등학교_통학구.geojson')
+# df12_middle_district=GetCompasData('SBJ_2012_001', '12', '12.오산시_중학교_학군.geojson')
+# df13_kinder=GetCompasData('SBJ_2012_001', '13', '13.오산시_어린이집_유치원현황.csv')
+# df14_weather=GetCompasData('SBJ_2012_001', '14', '14.오산시_기상데이터(2010~2019).csv')
+# df15_traffic_cctv=GetCompasData('SBJ_2012_001', '15', '15.오산시_무인교통단속카메라.csv')
+# df16_road_sign=GetCompasData('SBJ_2012_001', '16', '16.오산시_도로안전표지표준데이터.csv')
+# df17_crosswalk=GetCompasData('SBJ_2012_001', '17', '17.오산시_횡단보도.geojson')
+# df18_speed_bump=GetCompasData('SBJ_2012_001', '18', '18.오산시_과속방지턱표준데이터.csv')
+# df19_traffic_light=GetCompasData('SBJ_2012_001', '19', '19.오산시_신호등.geojson')
+# df20_cctv=GetCompasData('SBJ_2012_001', '20', '20.오산시_CCTV설치현황.csv')
+# df21_sidewalk=GetCompasData('SBJ_2012_001', '21', '21.오산시_인도.geojson')
+# df22_bus_stop=GetCompasData('SBJ_2012_001', '22', '22.오산시_버스정류장.csv')
+# df23_road=GetCompasData('SBJ_2012_001', '23', '23.오산시_상세도로망_LV6.geojson')
+# df24_traffic=GetCompasData('SBJ_2012_001', '24', '24.평일_전일,시간대별_오산시_추정교통량_Level6.csv')
+# df25_traffic_frequency=GetCompasData('SBJ_2012_001', '25', '25.평일_전일_오산시_혼잡빈도강도_Level6.csv')
+# df26_traffic_time=GetCompasData('SBJ_2012_001', '26', '26.평일_전일_오산시_혼잡시간강도_Level6.csv')
+# df27_building=GetCompasData('SBJ_2012_001', '27', '27.오산시_도로명주소_건물.geojson')
+# df28_grid_building=GetCompasData('SBJ_2012_001', '28', '28.오산시_건물연면적_격자.geojson')
+# df29_sports=GetCompasData('SBJ_2012_001', '29', '29.오산시_체육시설현황.csv')
+# df30_academy=GetCompasData('SBJ_2012_001', '30', '30.오산시_학원_및_교습소_현황.csv')
+# df31_le_sig=GetCompasData('SBJ_2012_001', '31', '31.오산시_법정경계(시군구).geojson')
+# df32_admin_emd=GetCompasData('SBJ_2012_001', '32', '32.오산시_행정경계(읍면동).geojson')
+# df33_legal_emd=GetCompasData('SBJ_2012_001', '33', '33.오산시_법정경계(읍면동).geojson')
+# df34_cadastral_map=GetCompasData('SBJ_2012_001', '34', '34.오산시_지적도.geojson')
 
 df1_parking=pd.read_csv('1.오산시_주정차단속(2018~2020).csv')
 df2_grid_accident=gpd.read_file('2.오산시_어린이교통사고_격자.geojson')
@@ -106,7 +106,6 @@ df31_le_sig=gpd.read_file('31.오산시_법정경계(시군구).geojson')
 df32_admin_emd=gpd.read_file('32.오산시_행정경계(읍면동).geojson')
 df33_legal_emd=gpd.read_file('33.오산시_법정경계(읍면동).geojson')
 
-# 좌표계 설정
 df1_parking.crs = {'init':'epsg:4326'}
 df2_grid_accident.crs = {'init':'epsg:4326'}
 df3_grid_car_enrollment.crs = {'init':'epsg:4326'}
@@ -156,7 +155,6 @@ def POINT_to_coordinates(geo_data):
 # 사용 예
 # df19_traffic_light = POINT_to_coordinates(df19_traffic_light)
 
-
 # +
 # 12/25 창균 추가
 def MULTILINESTRING_to_coordinates(line_string):
@@ -204,32 +202,6 @@ def location_to_point(df):
     return loc_df
 
 
-# ### 3) 지도 그리는 함수
-
-def drawing_Choro(df, osan_grid, title, legend):
-    center=[37.1498, 127.0772]
-    # 맵이 center 에 위치하고, zoom 레벨은 16로 시작하는 맵 m을 만듭니다.
-    m1 = folium.Map(
-        location=center,
-        zoom_start=13,
-        tiles='http://api.vworld.kr/req/wmts/1.0.0/26BFD173-330E-3D54-9C39-895DDD8F23B3/Base/{z}/{y}/{x}.png',
-        attr='My Data Attribution'
-    )
-
-    # Choropleth 레이어를 만들고, 맵 m에 추가합니다.
-    folium.Choropleth(
-        geo_data=osan_grid,
-        data=df,
-        columns=('gid', 'time'),
-        key_on='feature.properties.gid',
-        legend_name = legend,
-        fill_color='PuBuGn',
-        line_opacity = 0.2,
-    ).add_to(m1)
-
-    # 맵 m을 출력합니다.
-    m1.save("{0}.html".format(title))
-
 
 # ### 4) 격자내 존재하는 좌표 개수의 합을 구하는 함수
 
@@ -256,7 +228,6 @@ df_osan_grid=df4_pop.drop('val',axis=1)
 
 # geometry to coordinates
 df_osan_grid['coordinates'] = df_osan_grid['geometry'].apply(MULTIPOLYGON_to_coordinates)
-# df_osan_grid = pd.DataFrame(df_osan_grid)
 
 df_osan_grid.head(5)
 # -
@@ -278,6 +249,7 @@ df1_parking["lon"].fillna(127.072291, inplace = True)
 df1_parking["lat"].fillna(37.141363, inplace = True)
 
 df1_parking = location_to_point(df1_parking)
+
 df1_parking.head()
 # -
 
@@ -291,25 +263,21 @@ df4_pop=df4_pop.rename(columns={'val':'pop_val'})
 df4_pop=df4_pop.fillna(0)
 # geometry to coordinates
 df4_pop['coordinates'] = df4_pop['geometry'].apply(MULTIPOLYGON_to_coordinates)
-# df4_pop = pd.DataFrame(df4_pop)
 
 df5_junior_pop=df5_junior_pop.rename(columns={'val':'junior_val'})
 df5_junior_pop=df5_junior_pop.fillna(0)
 # geometry to coordinates
 df5_junior_pop['coordinates'] = df5_junior_pop['geometry'].apply(MULTIPOLYGON_to_coordinates)
-# df5_junior_pop = pd.DataFrame(df5_junior_pop)
 
 df6_product_pop=df6_product_pop.rename(columns={'val':'product_val'})
 df6_product_pop=df6_product_pop.fillna(0)
 # geometry to coordinates
 df6_product_pop['coordinates'] = df6_product_pop['geometry'].apply(MULTIPOLYGON_to_coordinates)
-# df6_product_pop = pd.DataFrame(df6_product_pop)
 
 df7_senior_pop=df7_senior_pop.rename(columns={'val':'senior_val'})
 df7_senior_pop=df7_senior_pop.fillna(0)
 # geometry to coordinates
 df7_senior_pop['coordinates'] = df7_senior_pop['geometry'].apply(MULTIPOLYGON_to_coordinates)
-# df7_senior_pop = pd.DataFrame(df7_senior_pop)
 
 # +
 # 정민 수정사항(12/21)
@@ -325,7 +293,6 @@ df_junior_ratio_pop=df_junior_ratio_pop.fillna(0)
 
 # geometry to coordinates
 df_junior_ratio_pop['coordinates'] = df_junior_ratio_pop['geometry'].apply(MULTIPOLYGON_to_coordinates)
-# df_junior_ratio_pop = pd.DataFrame(df_junior_ratio_pop)
 
 df_junior_ratio_pop
 # -
@@ -336,23 +303,23 @@ df_junior_ratio_pop["junior_ratio"].plot(xlabel = "gid", ylabel = "junior popula
 
 # ### df8 유동인구
 
-# +
 #합치는 코드 있어서 한번만 돌려야됨
 # location_to_point 함수에서 위도 경도를 point로 가져오려면 각 df의 특성에 맞는 이름인 df_lat, df_lon가 아니라 lat, lon으로 정해준다.
 #유동인구
 df_col_list=list(df8_floating_pop)
 df_col_list_all=df_col_list[3:]
+df_col_list_8_23=df_col_list[11:26]
 df_col_list_14_20=df_col_list[17:23]
 #모든 시간대 유동인구
 df8_floating_pop['all']=df8_floating_pop[df_col_list_all].sum(axis=1)
+#아이들의 이동시간
+df8_floating_pop['8_23']=df8_floating_pop[df_col_list_8_23].sum(axis=1)
 #사고가 가장 많이 일어나는 14~20
 df8_floating_pop['14_20']=df8_floating_pop[df_col_list_14_20].sum(axis=1)
 df8_floating_pop=df8_floating_pop.rename(columns={'STD_YM':'YM','lon':'lon','lat':'lat'})
-#lat, lon to point & pd.DataFrame to gpd.GeodataFrame
 df8_floating_pop = location_to_point(df8_floating_pop)
-
 df8_floating_pop
-# -
+
 
 # ### df9 어린이 보호구역
 
@@ -375,7 +342,6 @@ df9_protection_area
 
 # ### df10 학교 위치정보
 
-# +
 # 학교 위치정보
 # 중학교와 고등학교는 비대상으로 drop 처리
 a=df10_school.loc[df10_school['학교구분'].isin(['고등학교','중학교'])].index
@@ -387,7 +353,6 @@ df10_school = df10_school.reset_index(drop=True)
 df10_school = location_to_point(df10_school)
 
 df10_school
-# -
 
 # ### df11 초등학교 통학구
 
@@ -396,7 +361,6 @@ df10_school
 #type이 0이면 단독 통학구 1이면 다중 통학구로 예상됨
 df11_elementary_district.columns=['ed_objectid','district_id','ed_name','ed_type','geometry']
 df11_elementary_district['coordinates'] = df11_elementary_district['geometry'].apply(MULTIPOLYGON_to_coordinates)
-# df11_elementary_district = pd.DataFrame(df11_elementary_district)
 
 # object typecasting to int
 df11_elementary_district['ed_type'] = df11_elementary_district['ed_type'].astype('int')
@@ -466,7 +430,6 @@ df18_speed_bump['bump_continue'] = df18_speed_bump['bump_continue'].astype('int'
 
 #lat, lon to point & pd.DataFrame to gpd.GeodataFrame
 df18_speed_bump = location_to_point(df18_speed_bump)
-
 df18_speed_bump
 # -
 
@@ -480,12 +443,11 @@ df19_traffic_light.columns=['traffic_light_objectid','geometry']
 
 # geometry to coordinates
 df19_traffic_light = POINT_to_coordinates(df19_traffic_light)
-# df19_traffic_light = pd.DataFrame(df19_traffic_light)
-
 df19_traffic_light
 # -
 
 # ### df20 cctv
+
 
 # +
 #cctv
@@ -518,7 +480,6 @@ df21_sidewalk['sidewalk_bicycle'] = df21_sidewalk['sidewalk_bicycle'].astype('in
 
 # geometry to coordinates
 df21_sidewalk['coordinates'] = df21_sidewalk['geometry'].apply(MULTILINESTRING_to_coordinates)
-# df21_sidewalk = pd.DataFrame(df21_sidewalk)
 
 df21_sidewalk
 # -
@@ -536,6 +497,7 @@ df22_bus_stop = location_to_point(df22_bus_stop)
 
 df22_bus_stop
 # -
+
 
 # ### df23 상세 도로망
 
@@ -556,7 +518,6 @@ df23_road['link_id'] = df23_road['link_id'].astype(str)
 
 # geometry to coordinates
 df23_road['coordinates'] = df23_road['geometry'].apply(MULTILINESTRING_to_coordinates)
-# df23_road = pd.DataFrame(df23_road)
 
 df23_road
 # -
@@ -582,6 +543,7 @@ df24_traffic['time']=df24_traffic['time'].apply(str)
 df24_traffic
 # -
 
+# +
 # ### df25 평일 혼잡빈도강도
 
 # 평일 혼잡빈도강도
@@ -592,7 +554,9 @@ df25_traffic_frequency=df25_traffic_frequency.fillna('NaN')
 df25_traffic_frequency.columns=['link_id','road_rank','link_length','road_name',
                           'emd_name','frequency']
 df25_traffic_frequency['link_id'] = df25_traffic_frequency['link_id'].astype(str)
+
 df25_traffic_frequency
+# -
 
 # ### df26 평일 혼잡시간강도
 
@@ -618,7 +582,6 @@ df27_building=df27_building.drop(['UND_FLO_CO','GRO_FLO_CO','BULD_NM_DC','BULD_N
 df27_building = df27_building.apply(pd.to_numeric, errors = 'ignore')
 
 df27_building['coordinates'] = df27_building['geometry'].apply(MULTIPOLYGON_to_coordinates)
-# df27_building = pd.DataFrame(df27_building)
 
 df27_building
 # -
@@ -634,12 +597,12 @@ df28_grid_building=df28_grid_building.fillna(0)
 
 # geometry to coordinates
 df28_grid_building['coordinates'] = df28_grid_building['geometry'].apply(MULTIPOLYGON_to_coordinates)
-# df28_grid_building = pd.DataFrame(df28_grid_building)
 
 df28_grid_building
 # -
 
 # ### df29 체육시설
+
 
 # +
 #체육시설
@@ -651,9 +614,9 @@ df29_sports = location_to_point(df29_sports)
 df29_sports
 # -
 
+# +
 # ### df30 학원 교습소
 
-# +
 #학원,교습소
 df30_academy=df30_academy.drop('교습과정명',axis=1)
 df30_academy.columns=['academy_type','lon','lat']
@@ -743,12 +706,15 @@ view_state = pdk.ViewState(
     latitude=center[1], 
     zoom=10
 ) 
-r2 = pdk.Deck(layers=[layer], initial_view_state=view_state,
+r1 = pdk.Deck(layers=[layer], initial_view_state=view_state,
+
              map_style='mapbox://styles/mapbox/outdoors-v11',
              mapbox_key = "pk.eyJ1IjoicmVib3JuMTk5OCIsImEiOiJja2oyZGppZ24wdHJ1MnRtaHU5dm92cnV0In0.8sNxBdHqt8JccQZB-oe3Cg"
             )
 
-r2.to_html()
+
+r1.to_html()
+
 # -
 
 # # Link 정보 취합 및 시각화
@@ -878,7 +844,6 @@ r = pdk.Deck(layers=[layer], initial_view_state=view_state,
              map_style='mapbox://styles/mapbox/outdoors-v11',
              mapbox_key = "pk.eyJ1IjoicmVib3JuMTk5OCIsImEiOiJja2oyZGppZ24wdHJ1MnRtaHU5dm92cnV0In0.8sNxBdHqt8JccQZB-oe3Cg"
             )
-
 r.to_html()
 
 # +
@@ -945,5 +910,75 @@ r = pdk.Deck(layers=[polygon_layer, layer], initial_view_state=view_state,
 
 r.to_html()
 # -
+
+
+# # 격자 분류
+
+# 격자 분류에 해당하는 데이터들
+#
+# df1_parking: 격자별 불법주정차 단속지점 수 parking_val
+#
+# df4_pop: 격자별 인구수 pop_val
+#
+# df5_junior_pop: 격자별 아이 인구수 junior_val
+#
+# df8_floating_pop: 격자별 유동인구 수 floating_pop_val
+#     
+# df10_school: 격자별 학교 수 school_val
+#
+# df13_kinder: 격자별 유치원 수 kinder_val
+#
+# df17_crosswalk: 오산시_횡단보도 crosswalk_val
+#
+# df18_speed_bump:오산시_과속방지턱 수 bump_val
+#
+# df20_cctv: 오산시_CCTV수 cctv_val
+#
+# df21_sidewalk: 오산시_인도 sidewalk_val
+#
+# df22_bus_stop: 격자별 버스 정류장 수 Bus_stop_val
+#
+# df28_grid_building: 격자별 빌딩 밀도 density_building_val
+#     
+# df29_sports: 격자별 체육시설 수 sports_val
+#
+# df30_academy: 격자별 학원 수 academy_val
+#
+#
+
+# 인구 수와 유소년 인구 수 concat
+grid_info=pd.concat([df4_pop,df5_junior_pop['junior_val']],axis=1)
+grid_info
+
+# 격자별 건물 수 concat 
+grid_info=pd.concat([grid_info,df28_grid_building['grid_building_val']],axis=1)
+grid_info
+
+#grid_info와 df18_speed_bump를 합치기 위하여 변경
+grid_info=gpd.GeoDataFrame(grid_info)
+df18_speed_bump=location_to_point(df18_speed_bump)
+
+grid_info=sjoin(grid_info,df18_speed_bump,'bump_val')
+
+#유동인구를 함치기 위하여 변경
+df8_floating_pop=location_to_point(df8_floating_pop)
+
+temp=df8_floating_pop.groupby(['lon','lat'])['8_23'].mean()
+temp=pd.DataFrame(temp)
+temp=temp.reset_index()
+# sjoin을 위하여 geodataframe으로 변경
+temp=gpd.GeoDataFrame(temp)
+temp=location_to_point(temp)
+# grid_info와 sjoin
+test=gpd.sjoin(grid_info,temp,op='contains')
+test = test.groupby('gid')['8_23'].sum().to_frame().reset_index()
+grid_info=pd.merge(grid_info,test,how='outer',on='gid')
+grid_info=grid_info.rename(columns={'8_23':'floating_pop_val'})
+#null값 처리
+grid_info=grid_info.fillna(0)
+grid_info
+
+grid_info=grid_info[['gid','geometry','coordinates','pop_val','junior_val','grid_building_val','bump_val','floating_pop_val']]
+grid_info
 
 
